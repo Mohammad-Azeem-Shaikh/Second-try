@@ -1,0 +1,76 @@
+*{
+	
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	
+}
+h1{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div > div{
+	border: 2px solid black;
+	
+	align-items: center;
+	clear: left;
+	display: inline-block;
+	width: 30%;
+	
+}
+div div div.chicken{
+	float: right;
+	clear: left;
+	
+	text-align: center;
+	background-color: #de6262;
+	border-right: none ;
+	border-top: none;
+}
+div div div.beef{
+	float: right;
+	clear: left;
+	
+	text-align: center;
+	background-color: #ed2f2f;
+	color: white;
+	border-right: none ;
+	border-top: none;
+}
+div div div.sushi{
+	float: right;
+	clear: left;
+	
+	text-align: center;
+	background-color: #f2ca63;
+	border-right: none ;
+	border-top: none;
+	margin-right: 0px ;
+}
+div div div{
+	clear: both;
+	background-color: #8f8686;
+}
+div div#cool{
+	margin: 20px;
+}
+div div#cool2{
+	margin: 10px;
+}
+div div#cool3{
+	margin: 10px;
+}
+div div section{
+	clear: both;
+	padding: 15px;
+}
+.row {
+	width: 100%;
+	border: none;
+	margin: none;
+}
+.col-lg-3{
+	padding: 0px;
+	margin: 0px;
+}
